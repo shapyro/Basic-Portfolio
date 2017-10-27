@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  text-align: center;ß
+}
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: thin solid #777777;
+  overflow: auto;
+}
+
+#name {
+  background: #ff5800;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 200px;
+  color: #ffffff;
+  float: left;
+  margin-left: 60px;
+  padding: 30px;
+}
+
+.nav {
+  float: right;
+  margin-right: 60px;
+  padding: 30px;
+}
+
+#navlist li {
+  display: inline;
+  color: #777777
+}
+
+li+li::before {
+  content: "|";
+  padding: 0 1em;
+}
+
+a:hover {
+  color: #777777;
+}
+
+a:active {
+  color: #777777;
+}
+
+a:focus {
+  color: #777777;
+}
+
+a:visited {
+  color: #777777;
+}
+
