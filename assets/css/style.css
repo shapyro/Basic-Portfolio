@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  text-align: center;ß
+  text-align: center;
 }
 
 body {
@@ -14,6 +14,7 @@ header {
   background: #ffffff;
   border-bottom: thin solid #777777;
   overflow: auto;
+  width: 960px;
 }
 
 #name {
@@ -58,3 +59,67 @@ a:visited {
   color: #777777;
 }
 
+.body-container {
+  background: black;
+}
+
+/* #background {
+  margin: 0 auto;
+}*/
+
+.wrapper {
+  /* position: fixed *
+  width: 960px;
+  margin: 100%;
+  background-image: url('assets/images/darkness.png');
+  overflow: auto;
+  padding: 0;
+  background: #777777; */
+  border-bottom: thin solid #777777;
+  overflow: auto;
+}
+
+section {
+  width: 650px;
+  float: left;
+  margin: 30px 60px;
+  background: white;
+}
+
+#about {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 30px;
+  color: #ff5800;
+  margin: 10px 30px 30px 30px;
+  padding: 20px 0;
+  border-bottom: thin solid #777777;
+  text-align: left;
+}
+
+#shimmer {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 10px 30px;
+}
+
+p {
+  margin: 30px;
+  padding: 10px;
+}
+
+aside {
+  float: right;
+  background: white;
+  margin: 30px 60px 0 0;
+  padding: 33px;
+}
+
+footer {
+  background: #ffffff;
+  border-bottom: thin solid #777777;
+  overflow: auto;
+  width: 960px;
+  padding: 30px;
+  clear: both;
+}
